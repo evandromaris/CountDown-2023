@@ -1,3 +1,4 @@
+//inicio do contador
 const secondsCont = document.querySelector('#second')
 const minutescont = document.querySelector('#minutes')
 const hoursCont = document.querySelector('#hours')
@@ -30,3 +31,20 @@ setTimeout(() => {
 }, 2000)
 
 setInterval(updateCountdown, 1000)
+
+
+
+
+
+
+//modal Formulario
+function btnForm() {
+    document.getElementById('container-left').style.display = "none";
+    document.getElementById('signUp').style.display = 'flex'
+}
+
+function closeForm() {
+    document.getElementById('container-left').style.display = "block";
+    document.getElementById('signUp').style.display = 'none'
+}
+
