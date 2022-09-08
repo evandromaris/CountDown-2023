@@ -1,12 +1,11 @@
+const secondsCont = document.getElementById('second')
+const minutescont = document.getElementById('minutes')
+const hoursCont = document.getElementById('hours')
+const daysCont = document.getElementById('days')
+const launch2023 = document.getElementById('launch2023')
+const contdown = document.getElementById('contdown')
+
 //inicio do contador
-const secondsCont = document.querySelector('#second')
-const minutescont = document.querySelector('#minutes')
-const hoursCont = document.querySelector('#hours')
-const daysCont = document.querySelector('#days')
-const launch2023 = document.querySelector('#launch2023')
-const contdown = document.querySelector('#contdown')
-
-
 const newDays = new Date().getFullYear() +1;
 const launchTime = new Date(`January 01 ${newDays} 00:00:00`)
 
