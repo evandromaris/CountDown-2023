@@ -33,10 +33,6 @@ setTimeout(() => {
 setInterval(updateCountdown, 1000)
 
 
-
-
-
-
 //modal Formulario
 function btnForm() {
     document.getElementById('container-left').style.display = "none";
@@ -47,4 +43,6 @@ function closeForm() {
     document.getElementById('container-left').style.display = "block";
     document.getElementById('signUp').style.display = 'none'
 }
+
+
 
